@@ -1,0 +1,6 @@
+{
+  "name": "The Dip Interactive",
+  "description": "An interactive physics simulation demonstrating Seth Godin's 'The Dip' concept, where players help a ball climb out of the emotional and effort valley to reach high results.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
