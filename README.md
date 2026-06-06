@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# The Dip Interactive 2.0
 
-# Run and deploy your AI Studio app
+An interactive physics simulation inspired by Seth Godin's *The Dip*. Players push a ball through effort valleys, diagnose whether a challenge is a true Dip, Cul-de-Sac, or Cliff, and generate custom goal curves with a server-side Gemini endpoint.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/5b25d7ff-0515-48b2-af5d-d0661f0d48c3
+- Physics-based Dip canvas with breakthrough feedback
+- Diagnostic quiz for strategic persistence versus quitting
+- Bilingual insight cards and interactive momentum tools
+- Express API endpoint for custom Dip curve generation
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+
+   ```sh
+   npm install
+   ```
+
+2. Copy `.env.example` to `.env.local` and set `GEMINI_API_KEY`.
+
 3. Run the app:
-   `npm run dev`
+
+   ```sh
+   npm run dev
+   ```
+
+## Build
+
+```sh
+npm run lint
+npm run build
+```
